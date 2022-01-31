@@ -4,7 +4,7 @@ SCLAlertView
 [![Version](https://img.shields.io/cocoapods/v/SCLAlertView.svg?style=flat)](http://cocoadocs.org/docsets/SCLAlertView/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Animated Alert View written in Swift, which can be used as a `UIAlertView` or `UIAlertController` replacement. Since `UIAlertView` is deprecated and `UIAlertController` only works on iOS 8.x or above, if you have a Swift project where you want to support iOS 7.x too, SCLAlertView is an ideal substitution.
+Animated Alert View written in Swift 4.2, which can be used as a `UIAlertView` or `UIAlertController` replacement. Since `UIAlertView` is deprecated and `UIAlertController` only works on iOS 8.x or above, if you have a Swift project where you want to support iOS 7.x too, SCLAlertView is an ideal substitution.
 
 ![BackgroundImage](https://raw.githubusercontent.com/vikmeup/SCPopUpView/master/successScreenshot.png)_
 ![BackgroundImage](https://raw.githubusercontent.com/vikmeup/SCPopUpView/master/editScreenshot.png)
@@ -255,13 +255,13 @@ SCLAlertView is available through
 
 To install add the following line to your Podfile:
 
-    pod 'SCLAlertView'
+    pod 'SCLAlertView', :git => 'https://github.com/jasp255/SCLAlertView-Swift42.git", :branch => 'master'
 
 ### [Carthage](https://github.com/Carthage/Carthage)
 
 To install add the following line to your Cartfile:
 
-`github "vikmeup/SCLAlertView-Swift" "master"`
+`github "jasp255/SCLAlertView-Swift42" "master"`
 
 Collaboration
 ---
